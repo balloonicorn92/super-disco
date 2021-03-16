@@ -6,7 +6,6 @@ $(document).ready(function(){
         let userInput = $(this).siblings(".description").val()
         let timeKey = $(this).parent().attr("id")
         console.log(userInput, timeKey)
-
         localStorage.setItem(timeKey, userInput)
     })
     //identifier get from local storage
@@ -20,7 +19,8 @@ $(document).ready(function(){
         $("#16 .description").val(localStorage.getItem("16"));
         $("#17 .description").val(localStorage.getItem("17"));
         $("#18 .description").val(localStorage.getItem("18"));
-    //onclick time block textarea edit... on blur save... make sure to call it
+       
+    //onclick time block textarea edit...  make sure to call it
     let timeOfDay = function() {
         let currentTime = moment().hours()
 

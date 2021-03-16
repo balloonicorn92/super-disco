@@ -69,3 +69,16 @@ body {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
+  .dayTime {
+    color: #000000;
+    margin: 30px;
+  }
+  .dayTimeStyle {
+      background-color: white;
+      border-bottom: dashed;
+      border-color: black;
+      border-width: thin;
+  }
+.lastDayTimeStyle {
+    background-color: white;
+}
